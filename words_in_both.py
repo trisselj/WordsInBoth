@@ -9,7 +9,7 @@ def words_in_both(string1, string2):
     set1 = set(string1.lower().split())
     set2 = set(string2.lower().split())
     
-    # Finds the intersection of both sets ie. the dimilar words
+    # Finds the intersection of both sets ie. the similar words
     common_words = set1.intersection(set2)
 
     # Returns similar words
