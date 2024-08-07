@@ -3,7 +3,7 @@
 # Date: 08/07/2024
 # Description: Pulls the words that are the same from two different strings of text.
 
-def words_in_both(string1, string2)
+def words_in_both(string1, string2):
     
     # Converts both strings of text into lowercase and splits them into sets of words
     set1 = set(string1.lower().split())
